@@ -1,0 +1,17 @@
+
+* {
+    box-sizing: initial;
+}
+
+.die {
+    width: 104px;
+    height: 104px;
+    margin: 0rem, 0rem;
+    text-align: justify;
+    font-size: 150px;
+
+}
+
+.die:hover {
+    cursor: pointer;
+}
