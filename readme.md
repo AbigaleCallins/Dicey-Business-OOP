@@ -6,7 +6,7 @@ This lab will combine principles of HTML, CSS, JavaScript, Accessing/Creating/Mo
 ## General Requirements
 
 * You must use OOP. Create a class named `Die` that represents a single die.
-* Your class must have a property named `value` *hint* you will not have any arguments in your constructor.
+* Your class must have a property named `value` **hint** you will not have any arguments in your constructor.
 * Your class must have a method named `roll` that generates a random integer 1-6, sets the value property, and updates the div on the page with the new value.
 * When a new Die is created, it should **automatically** create a div, call its `roll` method, and put the div on the screen
 * You can use either the DOM or JQuery, but please be consistent and stick with one.
@@ -17,7 +17,7 @@ This lab will combine principles of HTML, CSS, JavaScript, Accessing/Creating/Mo
     * The dice should show up on your page in a grid, similar to the layout of DOM DOM DOMMMMMMM.
     * The page must contain a button labeled Roll Dice, which should call the `roll` method on all the dice, updating their values.
 
-*Hints*
+**Hints**
 
 * You can set a property on your Die object that holds the div representing the die on the page.
 * You will probably want to store each Die you create in a global array. This may be helpful when it comes time to roll all the dice.
