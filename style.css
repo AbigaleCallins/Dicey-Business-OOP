@@ -3,13 +3,18 @@
     box-sizing: initial;
 }
 
+body {
+    background: url("img\\Gold lights.jpg");
+    background-size: 100% auto;
+}
+
 .die {
     width: 104px;
     height: 104px;
-    margin: 0rem, 0rem;
+    display: flex;
+    flex-direction: row;
     text-align: justify;
-    font-size: 150px;
-
+    font-size: 150px;   
 }
 
 .die:hover {
